@@ -3,7 +3,7 @@ package com.github.maleksandrowicz93;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import javax.servlet.Filter;
+import javax.servlet.*;
 
 public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
@@ -27,3 +27,4 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
     }
 
 }
+
